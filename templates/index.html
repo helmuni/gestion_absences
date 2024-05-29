@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gestion des absences</title>
+    <!-- Intégration de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Styles personnalisés -->
+    <style>
+        /* Ajoutez vos styles personnalisés ici */
+        body {
+            padding-top: 50px; /* Espacement pour le navbar Bootstrap */
+        }
+        .container {
+            max-width: 600px; /* Largeur maximale du contenu */
+            margin: 0 auto; /* Centrage horizontal */
+        }
+        .jumbotron {
+            background-color: #f8f9fa; /* Couleur de fond de la jumbotron */
+        }
+    </style>
+</head>
+<body>
+    <!-- Barre de navigation Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Gestion des absences</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login">Se connecter</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenu principal -->
+    <div class="container mt-5">
+        <div class="jumbotron">
+            <h1 class="display-4">Bienvenue sur l'application de gestion des absences</h1>
+    
+            <hr class="my-4">
+            <p>Pour commencer, veuillez vous connecter à votre compte.</p>
+            <a class="btn btn-primary btn-lg" href="/login" role="button">Se connecter</a>
+        </div>
+    </div>
+
+    <!-- Scripts Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
